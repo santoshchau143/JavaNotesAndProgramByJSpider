@@ -1,0 +1,123 @@
+Find out output : 
+
+int i = 10;
+int y = i % 2;
+int x = y + i;
+String s;
+
+s = "a";
+x = x * i;
+y = x;
+x = x % 10;
+System.out.println(i + "," + y + "," + x);
+===============================
+
+Type Casting : 
+--------------------
+
+Primitive type casting : 
+
+
+byte short int long
+float double
+char
+boolean
+
+byte  -> short  , int 
+byte -> float
+
+byte i = 2;
+
+float j;
+
+j = i;   //
+
+j --> 2.0f
+-------------------
+float -> 4 bytes
+int --> 4 bytes
+
+int to float -> 2 --> 2.0f
+float to int -> 2.5f -> 2--> 0.5 loss
+-----------------------
+float -> 4 bytes
+double -> 8 bytes
+long -> 8 bytes
+
+
+float -> long  -> N - explicit
+long -> float  -> W - implicit
+long  -> double -> W
+double -> long  --> N
+
+-------------------------------
+character Liteals
+---------
+char data Type
+
+0 1
+
+English character
+ASCII value
+'A' -> 65 ,'B' -> 66, 'C' -> 67
+'Z' -> 90
+'a' -> 97 , 'b' -> 98
+'z' -> 122
+'0' -> 48
+'9' -> 57
+' ' -> 32
+'+' 
+
+------------------------
+
+char to int ->  W
+char to float --> 
+
+char -> 'A' -> 65 -> 65.0f
+
+char ch = 'A';
+String s = ch;
+=============================
+
+
+'a'   'A'
+97	65
+'b'    'B'
+98	66
+
+
+'d'   'D'
+100   68
+
+
+char ch = 'd';
+
+
+System.out.println("ch = " + ch);
+
+ch = (char) (ch -32);  // 'd' -32 => 100 - 32 => (char)68
+
+
+System.out.println("ch = " + ch);
+==============================================
+
+
+char ch = 'a';
+int x;
+int y;
+double j;
+x = 5;
+y = ch %10;
+j = y;
+String s = "a";
+System.our.println(s + ch);
+System.our.println(x + ch);
+System.our.println(j + ch);
+System.our.println(ch);
+
+
+
+
+
+
+ 

@@ -1,0 +1,45 @@
+Task File
+============ 
+
+WAJP to Store basic info. of a Student and later print it.
+
+Name
+age
+Phone number
+email
+Clg Percent
+Final Grade in single character
+adhaar number
+Pan number
+------------------------------------
+
+1)
+
+int x;
+int b;
+int c;
+b = 12;
+c = b + 10;
+x = c + b;
+System.out.println(x + b + c);
+System.out.println(x +"," +  b +"," + c);
+--------------------------------------------
+2) 
+String s = "d";
+char ch = 'a';
+boolean result = true;
+int i = 10;
+
+s =  s + result + i + ch;
+
+String str = "java";
+
+System.out.println(s);
+
+
+
+
+
+
+
+

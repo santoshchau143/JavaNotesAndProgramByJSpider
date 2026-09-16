@@ -1,0 +1,174 @@
+TaskFile
+=========
+
+Programming Lang : 
+---> High Level --> simple English
+		A-Z, a-z , 0-9 digits
+		+ -*/_,
+--> compiler -->javac-->  check syntax --> If Error -> ERROR MSG
+	if No ERROR -> Byte Code -> .class --> Class File
+
+--> Interpreter -> check Logical Errors --> If No Error -> M.C.--> output
+		If error found --> STOPs the Execution --> Runtime Error ->( EXCEPTION)
+
+jvm -> Java Virtual Machine --> JRE
+JDK
+=====================================================
+class   App
+{
+
+public static void main(String[] args)
+{
+
+
+}
+
+
+}
+
+====================================
+Data --> Literals --> 
+		2 types 
+	A)Single Value Literals
+		1)Numeric literals
+			a)Integer literals
+			b) floating point literals
+		2)character literals
+		3)Boolean literals
+	B) Multi Value Literals
+
+		String literals
+		or every object
+
+------------------------------
+Data Type : 
+Primitive Data Type
+	--> to store single value literals
+	--> keywords form
+	--> predefined 
+	--> fixed size
+	--> total 8 primitive 
+	  byte , short , int , long
+	  float  , double
+	  char 
+	  boolean
+
+Non primitive Data Type
+	--> Each and every class is a NPDT
+
+
+-----------------------------------------
+Variables : container to store any kind of data/value/input/literals
+
+steps to create a vars : 
+1) Declaration :   DataType varName;
+	int rollNo;
+      String name;
+
+2) Initialization : varName = value;
+
+           rollNo = 102345;
+	  name = "Arjun";
+
+	  int age = 21;
+  
+---------------------------------	
+---> x -> 7
+int x ;
+
+x = 10;
+
+int k = 2;
+
+x = k + 5;  // 2 + 5 => 7
+
+-------------------
+
+
+int x = 10;
+
+int y;
+
+y = x  ;  // int to int
+
+-----------------
+byte x = 10;
+
+int y;
+
+y = x  ;  // byte to int  -->primitive type Casting
+
+// 1 byte to 4 bytes --> smaller size to Large size
+			// no data loss -> widening
+			// implicit type casting
+
+-------------------------------------
+int  x = 10;
+
+byte y;
+
+y = x ;  // int to byte 
+
+// larger to smaller --> chances of Data loss--> narrowing
+		--> explicit typeCasting
+
+----------------------------------------------
+int i = 130;
+
+byte j;
+
+j = (byte)i;  
+
+System.out.println(" i = " + i );
+System.out.println(" j = " + j );
+
+---------------------------------------------------------
+Concat : joins any data with String by using +
+
+char data type : 'single-character'
+ASCII value
+UNICODE --> '\u0000'
+
+
+		System.out.println('\u2643');	
+		System.out.println('\u2642');
+		System.out.println('\u2645');
+		System.out.println('\u2646');
+		System.out.println('\u2643');	
+		System.out.println('\u2442');
+		System.out.println('\u2545');
+		System.out.println('\u2646');
+		System.out.println('\u2843');	
+		System.out.println('\u2942');
+		System.out.println('\u2245');
+		System.out.println('\u2646');
+
+----------------------------------------------
+
+
+char ch = 'A';
+
+//ch = ch + 1; // 'A' + 1 ==> 65 + 1 => 66 // CTE
+
+//ch = (char)ch + 1; // 'A' + 1 ==> 65 + 1 => 66// CTE
+
+ch = (char)(ch + 1); // ('A' + 1) ==> (65 + 1) => (char)(66) => B
+
+
+
+System.out.println(ch); 
+
+
+=============================================
+
+
+Types of Variables
+
+
+
+
+
+
+
+
+
