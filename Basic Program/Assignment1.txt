@@ -1,0 +1,8 @@
+Design a program to print the following information of a person
+Name
+phone number 
+aadhar no
+pan no 
+bank balance
+blood group
+address 
